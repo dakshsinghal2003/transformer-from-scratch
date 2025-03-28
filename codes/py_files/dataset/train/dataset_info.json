@@ -1,0 +1,56 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "english-to-hinglish",
+  "dataset_size": 19936050,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/nateraw/english-to-hinglish@04642192a1e702647a84c46c3ed1871b085724f5/data/train-00000-of-00001.parquet": {
+      "num_bytes": 11263173,
+      "checksum": null
+    },
+    "hf://datasets/nateraw/english-to-hinglish@04642192a1e702647a84c46c3ed1871b085724f5/data/test-00000-of-00001.parquet": {
+      "num_bytes": 661545,
+      "checksum": null
+    }
+  },
+  "download_size": 11924718,
+  "features": {
+    "en": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hi_ng": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 31860768,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 18836749,
+      "num_examples": 178701,
+      "dataset_name": "english-to-hinglish"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1099301,
+      "num_examples": 10401,
+      "dataset_name": "english-to-hinglish"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
