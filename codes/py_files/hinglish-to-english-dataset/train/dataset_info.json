@@ -1,0 +1,54 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 16674960,
+  "description": "",
+  "download_checksums": {
+    "D:/Lectures/pytorch/Transformer from scratch/transformer-from-scratch/./synth-train.csv": {
+      "num_bytes": 14864130,
+      "checksum": null
+    },
+    "D:/Lectures/pytorch/Transformer from scratch/transformer-from-scratch/./test.csv": {
+      "num_bytes": 561728,
+      "checksum": null
+    },
+    "D:/Lectures/pytorch/Transformer from scratch/transformer-from-scratch/./train.csv": {
+      "num_bytes": 253753,
+      "checksum": null
+    },
+    "D:/Lectures/pytorch/Transformer from scratch/transformer-from-scratch/./validation.csv": {
+      "num_bytes": 114598,
+      "checksum": null
+    }
+  },
+  "download_size": 15794209,
+  "features": {
+    "en_query": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "cs_query": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 32469169,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 16674960,
+      "num_examples": 180979,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
